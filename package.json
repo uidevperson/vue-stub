@@ -1,0 +1,33 @@
+{
+  "name": "stub",
+  "version": "0.0.0",
+  "description": "vue-stub",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start --watch main.js --name \"stub\"",
+    "stop": "pm2 stop --watch stub",
+    "restart": "pm2 restart stub",
+    "logs": "pm2 logs stub",
+    "monitor": "pm2 monit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "chalk": "^1.0.0",
+    "compression": "^1.4.3",
+    "connect": "^3.4.1",
+    "dns-notfound-what": "^1.1.0",
+    "express": "^4.14.0",
+    "express.io": "^1.1.13",
+    "kafka-node": "^0.2.27",
+    "lodash": "^3.7.0",
+    "lorem-ipsum": "^1.0.3",
+    "moment": "^2.10.3",
+    "node-uuid": "^1.4.3",
+    "request": "^2.42.0",
+    "sha1": "^1.1.0"
+  },
+  "devDependencies": {}
+}
